@@ -1,57 +1,48 @@
 public class Iphone implements MusicPlayer, MobileDevice, InternetBrowser{
 
 	@Override
-	public void displayPage() {
-		// TODO Auto-generated method stub
-		
+	public void displayPage(String url) {
+		System.out.println("Displays the url page: "+url+ " in iPhone browser.");		
 	}
 
 	@Override
 	public void addNewTab() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Adding an empty new tab to the iPhone browser");		
 	}
 
 	@Override
 	public void refreshPage() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Page currently displayed in the browser is refreshed to show the latest version of the content.");		
 	}
 
 	@Override
 	public void call() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("");
 	}
 
 	@Override
 	public void answer() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("");
 	}
 
 	@Override
 	public void voiceMail() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("");
 	}
 
 	@Override
 	public void play() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("");
 	}
 
 	@Override
 	public void pause() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("");
 	}
 
 	@Override
 	public void selectMusic() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("");
 	}
 
 }

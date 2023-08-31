@@ -1,6 +1,6 @@
 public interface InternetBrowser {
 	
-	public void displayPage();
+	public void displayPage(String url);
 	
 	public void addNewTab();
 	
