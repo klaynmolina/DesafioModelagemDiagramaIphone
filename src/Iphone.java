@@ -31,18 +31,18 @@ public class Iphone implements MusicPlayer, MobileDevice, InternetBrowser{
 	}
 
 	@Override
-	public void play() {
-		System.out.println("");
+	public void play(String media) {
+		System.out.println("Starting music playback on the device, according to the media: " + media);
 	}
 
 	@Override
 	public void pause() {
-		System.out.println("");
+		System.out.println("Temporarily stops playback of running media content.");
 	}
 
 	@Override
-	public void selectMusic() {
-		System.out.println("");
+	public void selectMusic(String musicName) {
+		System.out.println("Plays the music: " + musicName);
 	}
 
 }

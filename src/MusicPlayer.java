@@ -1,9 +1,9 @@
 public interface MusicPlayer {
 
-	public void play();
+	public void play(String media);
 
 	public void pause();
 
-	public void selectMusic();
+	public void selectMusic(String musicName);
 
 }
