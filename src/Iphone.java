@@ -2,12 +2,12 @@ public class Iphone implements MusicPlayer, MobileDevice, InternetBrowser{
 
 	@Override
 	public void displayPage(String url) {
-		System.out.println("Displays the url page: "+url+ " in iPhone browser.");		
+		System.out.println("Displays the url page: " + url + " in iPhone browser.");		
 	}
 
 	@Override
 	public void addNewTab() {
-		System.out.println("Adding an empty new tab to the iPhone browser");		
+		System.out.println("Adding an empty new tab to the iPhone browser.");		
 	}
 
 	@Override
