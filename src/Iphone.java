@@ -16,18 +16,18 @@ public class Iphone implements MusicPlayer, MobileDevice, InternetBrowser{
 	}
 
 	@Override
-	public void call() {
-		System.out.println("");
+	public void call(String number) {
+		System.out.println("Initiating a phone call to the number: " + number);
 	}
 
 	@Override
 	public void answer() {
-		System.out.println("");
+		System.out.println("Answer an incoming phone call.");
 	}
 
 	@Override
 	public void voiceMail() {
-		System.out.println("");
+		System.out.println("Access voicemail messages where user can listen, manage and reply to them.");
 	}
 
 	@Override

@@ -1,6 +1,6 @@
 public interface MobileDevice {
 	
-	public void call();
+	public void call(String number);
 	
 	public void answer();
 	
