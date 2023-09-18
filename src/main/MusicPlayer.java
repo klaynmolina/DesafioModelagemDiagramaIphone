@@ -1,3 +1,4 @@
+package main;
 public interface MusicPlayer {
 
 	public void play(String media);

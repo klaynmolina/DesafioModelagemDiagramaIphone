@@ -1,3 +1,4 @@
+package main;
 public interface MobileDevice {
 	
 	public void call(String number);

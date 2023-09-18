@@ -1,3 +1,4 @@
+package main;
 public interface InternetBrowser {
 	
 	public void displayPage(String url);
